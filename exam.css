@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+    }
+    #container{
+    background-color: rgb(204, 240, 240); 
+    
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+    
+    
+    }
+    .form{
+    border: 5px double rgba(255, 255, 255, 0.473);
+    border-radius: 20px;
+    width: 35rem;
+    height: 29rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem; 
+    background-color: white;
+    padding: 15px;
+    
+    }
+    
+    
+    #myprogress{
+        width: 100%;
+        background-color: rgb(204, 240, 240);
+        border-radius: 10px;
+        
+
+    }
+#mybar{
+    width: 1%;
+    height: 15px;
+    background-color: pink;
+    border-radius: 10px;
+}
+   
+    
+    h3{
+        font-family: cursive;
+        text-align: center;
+        
+        
+    }
+
+    .hash{
+        border: 5px double rgba(255, 255, 255, 0.473);
+        border-radius: 20px;
+        width: 10rem;
+        height: 29rem;
+        background-color: pink;
+        padding: 15px;}
+        
+        h4{
+            font-family: cursive;
+            font-size: 20px;
+
+        }
+
+    .marked0,.marked1,.marked2,.marked3,.marked4{
+        border: 5px double rgb(204, 240, 240);
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(204, 240, 240);
+
+        }
+        .question{
+          background-color: pink;
+          border: 5px double rgba(255, 255, 255, 0.473);
+          border-radius: 20px;
+          height: 8rem;
+          position: relative;
+          bottom: 2rem;
+          font-family: 'Times New Roman', Times, serif;
+          font-weight: bold;
+          padding-left: 10px;
+
+        }
+        .main{
+         position: relative;
+          bottom:4rem
+        }
+        .choice{
+            background-color: pink;
+            border: 5px double rgba(255, 255, 255, 0.473);
+            border-radius: 20px;
+            width: 10rem;
+            height:3rem ;
+
+
+        }
+        #choices{
+            display: flex;
+        }
+         input[type="radio"]{
+             position: relative;
+             top:1rem;
+             display: block;
+
+             
+         }
+         button{
+             width: 4rem;
+             background-color: pink;
+            border: 5px double rgba(255, 255, 255, 0.473);
+            border-radius: 20px;
+             
+         }
+         label{
+             display: inline-block;
+             height: 3rem;
+             width: 4rem;
+             padding-left: 30px;
+             padding-bottom: 30px;
+             padding-right: 20px;
+            
+
+         }
+         .mydiv{
+            display: flex;
+            flex-direction: column;
+    
+         }
+
+         #mark{align-self: center
+            
+            ;
+        margin-left: 15rem;}
+        .btns{
+
+            margin-left: 12rem;
+
+        }
+        #submit{
+            margin-left: 12rem;
+            width: 10rem;
+        }
+        .ms{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            row-gap: 5px;
+        }
+
+    #submit:hover{
+
+background-color: rgb(204, 240, 240);
+
+        }
+         
+        #next:hover{
+            background-color: rgb(204, 240, 240);
+        }
+
+        #previous:hover{
+            background-color: rgb(204, 240, 240);
+        }
+        #mark:hover{
+            background-color: rgb(204, 240, 240);
+        }

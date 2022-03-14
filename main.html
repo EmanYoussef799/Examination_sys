@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div id="container">
+    <div><img src="on.png"></div>
+ <div class="form">
+        <h3> Registration Form </h3>
+<label> First-Name </label><br>
+<input type="text" class="fn" placeholder="Enter your first name..."  onchange="fname(this)" id="fname"><br>
+<span class="fnam"></span>
+<label> Last-Name </label><br>
+<input type="text" class="ln" placeholder="Enter your last name..."  onchange="lname(this)" id="lname"><br>
+<span class="lnam"></span>
+<label> E-mail </label><br>
+<input  type="text" class="E" placeholder="Enter your E-mail..."onchange="email(this)" id="email"><br>
+<span class="eml"></span>
+<label> Password </label><br>
+<input  type="password" class="ps1" placeholder="Enter your password..." onchange="pass1(this)" id="passs1" ><br>
+<span class="ps1"></span>
+<label> R-enter-Password </label><br>
+<input  type="password" class="ps2" placeholder="Re-enter your password..."onchange="pass2(this)" id="passs2"><br><br>
+<span class="ps2"></span>
+<button onclick="Register(this)"> Register </button>
+<span class="reg"></span>
+</div>
+</div>
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

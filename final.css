@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+    }
+    #container{
+    background-color: rgb(204, 240, 240); 
+    
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+    
+    h3{
+        font-family: cursive;
+        font-size: 30px;
+    }
+    
+    
+    /* .form{
+    border: 5px double rgba(255, 255, 255, 0.473);
+    border-radius: 20px;
+    width: 20rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    background-color: white;
+    
+    } */
+    
+    
+    
+    img{
+        width: 20rem;
+        align-self: flex-start;
+    
+    }
+
+    .res{
+        font-size: 20px;
+    }
